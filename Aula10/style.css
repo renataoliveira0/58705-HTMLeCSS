@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.example {
+    background-color: lightblue;
+    margin: 20px 0;
+}
+
 .desafio1{
     background-color: aquamarine;
     color:orange
@@ -13,4 +23,14 @@
     background-color: palevioletred;
     color:brown;
     list-style-type: katakana-iroha;
+}
+
+
+@font-face {
+    font-family: "Fonte teste";
+    src: url("fonte.ttf");
+}
+.example {
+    font-family: "Fonte teste", cursive;
+    font-size: 30px;
 }
